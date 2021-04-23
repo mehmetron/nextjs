@@ -11,7 +11,6 @@
    render() {
      return (
        <Html lang="en">
-         <GoogleFonts href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" />
          <Head>
              <meta charSet="utf-8" />
              <link rel="shortcut icon" href="/assets/favicon.ico" />
@@ -39,6 +38,10 @@
              content="A modern design system for your new landing and web pages."
              />
              <meta property="og:url" content="https://thefront.maccarianagency.com/" />
+             <link
+             href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap"
+             rel="stylesheet"
+             />
              <script
              src="https://kit.fontawesome.com/4c273e6d43.js"
              crossOrigin="anonymous"
